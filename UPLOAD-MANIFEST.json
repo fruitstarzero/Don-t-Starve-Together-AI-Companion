@@ -1,0 +1,507 @@
+{
+  "version": "0.8.0",
+  "scope": "standalone-source-only",
+  "manifestExcludesItself": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 39,
+      "sha256": "61ed2c4effbbe5060e2a745e9e8416080aa5cc7bc0e3eda2cd1bc7feefc994ff"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 144,
+      "sha256": "9d0f069a626b8b3887ecc133b92d495c6fc94f43784a58e669e0464f68b5610c"
+    },
+    {
+      "path": "安装.cmd",
+      "bytes": 51,
+      "sha256": "dabfef75c26d50d7988b84e56478061aa9dbee926d8653c540738f7604aef3ea"
+    },
+    {
+      "path": "启动.cmd",
+      "bytes": 74,
+      "sha256": "8fd1966b92c2a0df39fc483d86318cab51a498eaef81b76db0882ff3a1a2008a"
+    },
+    {
+      "path": "停止AI.cmd",
+      "bytes": 50,
+      "sha256": "59b9abdac7156c94804307b2c676e2373a6509be1f82a36c8a9a3259b75a45b8"
+    },
+    {
+      "path": "bridge/config.example.json",
+      "bytes": 94,
+      "sha256": "502351965d70554c0f0cea7563e909cd8f41ad5de622580388e74e5a5104e956"
+    },
+    {
+      "path": "bridge/config.mjs",
+      "bytes": 917,
+      "sha256": "109c20131d49fab4cdf2bab94548eaf986402375628b4951baca38b91ff4874b"
+    },
+    {
+      "path": "bridge/decision-context.mjs",
+      "bytes": 1032,
+      "sha256": "0816e420f4c69282c91f7e9a663325f3522e2119ab9d5b815099d2bdf085ec0d"
+    },
+    {
+      "path": "bridge/diary.mjs",
+      "bytes": 1340,
+      "sha256": "34f89ff4d34a31b30c4866b2cbb76b255b521136112344dcded75a7dc27dcdc8"
+    },
+    {
+      "path": "bridge/engine.mjs",
+      "bytes": 15232,
+      "sha256": "641b38c9f06b9f1e7dfcc71f98b8dde260602fea4d86f5f1c3225d95284c4953"
+    },
+    {
+      "path": "bridge/instructions.txt",
+      "bytes": 17939,
+      "sha256": "ac48f6e46b4691e8e68f1d75c98d2cf1eac76069470b756cdfee3f89283a1b6a"
+    },
+    {
+      "path": "bridge/journal.mjs",
+      "bytes": 1457,
+      "sha256": "ef8a95ec7588a3aae79181fa752ff493d5a10be47d31f77b8c3a9e7912cfe888"
+    },
+    {
+      "path": "bridge/knowledge.mjs",
+      "bytes": 6590,
+      "sha256": "c0fcfbd1579f391c607463a9161f2434f96cc454723f387826a1654215b9c32c"
+    },
+    {
+      "path": "bridge/life.mjs",
+      "bytes": 1941,
+      "sha256": "803da43b2f08fe774e37a96aac5a8f7864cf68fb039242c0da5d8be20c1d85e4"
+    },
+    {
+      "path": "bridge/memory.mjs",
+      "bytes": 2114,
+      "sha256": "844b1e399f508e41d6b832cbb047536a3113585c6a52185de2f5989c48484032"
+    },
+    {
+      "path": "bridge/model.mjs",
+      "bytes": 4331,
+      "sha256": "f88f9e0a17fb2131f3962d3e64545a06d097277742ee2d97d1847fe1c0f02f82"
+    },
+    {
+      "path": "bridge/remote.mjs",
+      "bytes": 3271,
+      "sha256": "33b2b1ccde73ad1c7458e5ff151f11153cd4a225ce35dc096eeaec8bd1793435"
+    },
+    {
+      "path": "bridge/schema.mjs",
+      "bytes": 8377,
+      "sha256": "41949a317e3b0f323f5cedf808e2e01ba60bad04776d2ff203fdb88a70f33489"
+    },
+    {
+      "path": "bridge/server.mjs",
+      "bytes": 2877,
+      "sha256": "a5cc7167a307be033043f27fab42a45d66050a3297aa52486ce19ea1ce7a210c"
+    },
+    {
+      "path": "bridge/survival-guide.md",
+      "bytes": 11663,
+      "sha256": "731814d479d54ce838c921c90b3ce471549de2d0c827db664e55881d745b5aef"
+    },
+    {
+      "path": "bridge/tasks.mjs",
+      "bytes": 1183,
+      "sha256": "d29a44199d7bce05b63bc71d4be3afa5f3f9be6bfb3cf040e75eccdd0c1f7b9d"
+    },
+    {
+      "path": "bridge/timeline.mjs",
+      "bytes": 2023,
+      "sha256": "5dee945a9c3e9c0eb4663be2eb844306f0f01f95b6f758eb73bf7d87879eeee3"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 3087,
+      "sha256": "a1160cd4d1a87b727968cca57d71373496f4d758df03a78006eab53ba2ca8652"
+    },
+    {
+      "path": "docs/community-research.md",
+      "bytes": 12671,
+      "sha256": "7db96a07a724e5b9279c78d34dc89adafd7636b490c56d0567cee44ea23fc4ca"
+    },
+    {
+      "path": "docs/development/01-通用架构与制作流程.md",
+      "bytes": 10237,
+      "sha256": "2ffa6b72c46e849ee03cefdc6267bd3520f3095cf61f1ed6a080ae2c8ed2850a"
+    },
+    {
+      "path": "docs/development/02-星露谷与饥荒实现复盘.md",
+      "bytes": 11758,
+      "sha256": "efdb77e1eece7fc0812c77473224799b05297a587bb10d81e619ea38f5e27498"
+    },
+    {
+      "path": "docs/development/03-新游戏设计工作单.md",
+      "bytes": 6528,
+      "sha256": "ca8906c48548730afafe6441f6321da987ecef2f1cd35f46bd01968c0ede2092"
+    },
+    {
+      "path": "docs/development/04-测试部署与交接模板.md",
+      "bytes": 6792,
+      "sha256": "7b9a49fe919afb03c77af79e4118a5d5333676341615ae4501e58be51491cced"
+    },
+    {
+      "path": "docs/development/README.md",
+      "bytes": 1117,
+      "sha256": "b23e434751c06f4425efbac263a5b5d5d0f8d217fcfdbb2d37b619fa4a9a56dc"
+    },
+    {
+      "path": "docs/manual-github-upload.md",
+      "bytes": 3567,
+      "sha256": "a93356afe0a34755c6e0d5145f0713c79637c9bd89a36097d4c241b053219047"
+    },
+    {
+      "path": "docs/mod-compatibility.md",
+      "bytes": 2322,
+      "sha256": "cb645bcea863be342ddf71665af4cd7b1b8290811553b080819b0f00e0a951b3"
+    },
+    {
+      "path": "docs/release-verification.md",
+      "bytes": 2078,
+      "sha256": "783a43713bd4a19cf2526c7b37b5d02704ea37d10ce7dd92aa7c2dd8a9d45cc1"
+    },
+    {
+      "path": "docs/survival-primary-research-2026-10-23.md",
+      "bytes": 11852,
+      "sha256": "8aa6bbc72584a37a2ba60d3a954bd73cf10fc55f01867c5b13d5eebf9e37b4b1"
+    },
+    {
+      "path": "docs/testing-checklist.md",
+      "bytes": 1907,
+      "sha256": "53ae921d40a8f7e2bc3c9db482e693fb45c45622f6dff83517a2cb187c3b5b72"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1082,
+      "sha256": "09ae4d4942559fa30e61dfe603514b8c5049d976af1d67593cecc913537089a6"
+    },
+    {
+      "path": "mod/modinfo.lua",
+      "bytes": 1135,
+      "sha256": "dbc73bf0378f3d80262c063c807250cefb83e6c3928ef4a1c3f56c34ee965132"
+    },
+    {
+      "path": "mod/modmain.lua",
+      "bytes": 4455,
+      "sha256": "74c8511d69d7e6de5fc516e5cd306d6b4046f7f35cbef7bd27a4c1803223715b"
+    },
+    {
+      "path": "mod/scripts/ai_abigail.lua",
+      "bytes": 1608,
+      "sha256": "4e004fa09f420307a8195861dfe739756a0b6760ab69819018b7788b52f23e1d"
+    },
+    {
+      "path": "mod/scripts/ai_actions.lua",
+      "bytes": 2176,
+      "sha256": "d317798f0c04bc259182a03c1262514a29920860af052e0a87dbcccdb48c05c7"
+    },
+    {
+      "path": "mod/scripts/ai_capabilities.lua",
+      "bytes": 713,
+      "sha256": "fa69734bab3090d5da062995275e1f3b63f9d50a86e3c3023c3abe7c4ca2f86f"
+    },
+    {
+      "path": "mod/scripts/ai_clientstatus.lua",
+      "bytes": 1210,
+      "sha256": "893da1189247863f823fd2cf31415a9c3e5b194151419b7d576c76c397cd4ebf"
+    },
+    {
+      "path": "mod/scripts/ai_crafting.lua",
+      "bytes": 7005,
+      "sha256": "ddaa289141aad1e54bd7284947a022810490ea5b2c679c2882e63d2dc3f7bbef"
+    },
+    {
+      "path": "mod/scripts/ai_decisionguard.lua",
+      "bytes": 1201,
+      "sha256": "b4ddb29f13b9f72c5a8398ecb8eec58658a12d18280c6950dfb45fa77df2c2ba"
+    },
+    {
+      "path": "mod/scripts/ai_inventory.lua",
+      "bytes": 12962,
+      "sha256": "df3eff1a8f357b4dd2c551d197e3e74049bd5e731943882783cc074bb2ccc279"
+    },
+    {
+      "path": "mod/scripts/ai_life.lua",
+      "bytes": 6017,
+      "sha256": "b9d64ee4a1adced47fa0aea1aec379a31e5c2a5be98162d3997be7bcc0913d5e"
+    },
+    {
+      "path": "mod/scripts/ai_memory.lua",
+      "bytes": 1894,
+      "sha256": "a56696c726b88c0e1cf9d05e739059851977499404ccc1df8531e08f52decca4"
+    },
+    {
+      "path": "mod/scripts/ai_navigation.lua",
+      "bytes": 3100,
+      "sha256": "696e4425a2dc4be9c71922d468ca5496ea6c8eccc5db508b342b6576342a1b6c"
+    },
+    {
+      "path": "mod/scripts/ai_policy.lua",
+      "bytes": 3860,
+      "sha256": "f5b57c422945150f029995505fc7e6644ac41b8f49f32560df5dde1f6dcf1925"
+    },
+    {
+      "path": "mod/scripts/ai_preparation.lua",
+      "bytes": 1636,
+      "sha256": "eb3c6a2f48482e5cfd940f9d793b6c77b497e99ea250fac6772673e13a633a3b"
+    },
+    {
+      "path": "mod/scripts/ai_procurement.lua",
+      "bytes": 7612,
+      "sha256": "50aa276ca1ae4213efad9aa0b670e7a3359756baefe40505c9c97d0d2edf254b"
+    },
+    {
+      "path": "mod/scripts/ai_projects.lua",
+      "bytes": 9948,
+      "sha256": "be2d775f5381320434f36aedd4edb2946c50ed6db8eb1f6540f995434d6db7c7"
+    },
+    {
+      "path": "mod/scripts/ai_recipebook.lua",
+      "bytes": 2676,
+      "sha256": "25673649129d55d945e9bee1436f6ac00aedd010825b19bf270d9a00bfe3b638"
+    },
+    {
+      "path": "mod/scripts/ai_recovery.lua",
+      "bytes": 691,
+      "sha256": "9ec41609009181f0b4d7c14d857cf856f36ea1b975f7038a7fb53068632f7514"
+    },
+    {
+      "path": "mod/scripts/ai_reservations.lua",
+      "bytes": 4818,
+      "sha256": "8c4cdaf7eb6e1eeae727d1c4788f4a87bb9d852b94471e64b7097ba9946bc997"
+    },
+    {
+      "path": "mod/scripts/ai_resources.lua",
+      "bytes": 4684,
+      "sha256": "b9087e9da0276df7c3f484bdafa4343c1c9213ac81b0d949489fcef321bacd7b"
+    },
+    {
+      "path": "mod/scripts/ai_safety.lua",
+      "bytes": 2997,
+      "sha256": "58c094a6b4a7ec1588aa4fe339cb7937805f35d0599cdb0696143e4abd29f4c8"
+    },
+    {
+      "path": "mod/scripts/ai_selftest.lua",
+      "bytes": 27469,
+      "sha256": "c3189c22f974435ddd2b42ba30d1b8a22b67e1cedbbc1b2b5112632772a3c7f6"
+    },
+    {
+      "path": "mod/scripts/ai_skills.lua",
+      "bytes": 1885,
+      "sha256": "a2e774bf232c828892ae11f5e6f6f3f5f66c4f9fdd27f6962ec696221dbbbd16"
+    },
+    {
+      "path": "mod/scripts/ai_social.lua",
+      "bytes": 4461,
+      "sha256": "3d512da471ecbfb05d7281442b93943a51334dd91e83b656a6cff0d98a65f213"
+    },
+    {
+      "path": "mod/scripts/ai_speechhistory.lua",
+      "bytes": 3160,
+      "sha256": "f0a89ff740a07a5bdaec5d22af9c1a691bc1fd957ead6e2e74f798bf542e8125"
+    },
+    {
+      "path": "mod/scripts/ai_staging.lua",
+      "bytes": 3178,
+      "sha256": "3f4c6335a2de8cea4996f13aca39dd13cd394fa6defee7e04898a5584d278d2b"
+    },
+    {
+      "path": "mod/scripts/ai_tasks.lua",
+      "bytes": 13188,
+      "sha256": "53a2cd38b8a9c32cbedc04a34ec0cc700da2d7f02c55c7ea4b310c8c9db227e2"
+    },
+    {
+      "path": "mod/scripts/ai_travel.lua",
+      "bytes": 1750,
+      "sha256": "f1059aae829fad6ec70ccfc4fb4fe3ed4124285a6247140182dfe09d9383f663"
+    },
+    {
+      "path": "mod/scripts/components/aicompanion.lua",
+      "bytes": 42171,
+      "sha256": "575f3d1b1b19118f812a7b647928b714231a35413383deafa45fdeac2e0d58e2"
+    },
+    {
+      "path": "mod/scripts/components/aicompanionmanager.lua",
+      "bytes": 20387,
+      "sha256": "001a298fe5dc78978d873239627f68bf1008f69e83bb9845642a6c185e4fc6c3"
+    },
+    {
+      "path": "mod/scripts/screens/aicompanionscreen.lua",
+      "bytes": 8531,
+      "sha256": "a45e42aa16e7560008f8e4b7aef621240d56a3f3fa8abf40d0a227716ee7d180"
+    },
+    {
+      "path": "mod/scripts/widgets/aicompanionhistory.lua",
+      "bytes": 9143,
+      "sha256": "4462cc7a597375800b926b38e0796e45f2dcd8d3f1a8e50dc5c7d5016cd591d2"
+    },
+    {
+      "path": "mod/scripts/widgets/aistyle.lua",
+      "bytes": 1806,
+      "sha256": "1f9402c4354cbd3b981a48e43f89445bde2f016559b35ed48f3e59f7cc8581dd"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 2181,
+      "sha256": "6e5243c125c08a4e9b95ea99daf314ba389886192ec427d8fba99d96a350571c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 486,
+      "sha256": "8810a833fb6314dbc641dfb93375c8387b4e55595af4416c157e5ec0cb2641fc"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 2545,
+      "sha256": "47097dc8dad60d2d635d17ef5d652a77672ba481e98b041baa318943baffd536"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10087,
+      "sha256": "e6f777074ae924c144dafb2c683fa53a416ff354cc1eee3fdcb2308107b76ace"
+    },
+    {
+      "path": "role.example.md",
+      "bytes": 605,
+      "sha256": "2c2701db6a1aee493ad638bfb7553c4bc0840c33c502c8a3d3482367ab0ffd4a"
+    },
+    {
+      "path": "test/client-rpc.test.mjs",
+      "bytes": 2764,
+      "sha256": "8ff53ad8912ccc7d57cb7c026435d3b29fc6728df9d4af6f98bd2e908d9adf1d"
+    },
+    {
+      "path": "test/continuity.test.mjs",
+      "bytes": 14564,
+      "sha256": "8891cda87f6c7cc724a3168163b980e7a26beb3a904b6583447193d90c2ce18c"
+    },
+    {
+      "path": "test/decision-freshness.test.mjs",
+      "bytes": 4972,
+      "sha256": "49ce76bc97d758078b90b31815f76563a56dee692b79160f05a703531ae1f1b2"
+    },
+    {
+      "path": "test/engine.test.mjs",
+      "bytes": 5704,
+      "sha256": "55b36404ea63fb85c58777e855c8668fdd901434696a088de9afc15fcab5a09d"
+    },
+    {
+      "path": "test/game-social.test.mjs",
+      "bytes": 4465,
+      "sha256": "12a5a9b41625ade72000de211b3e7a3ffb7c27feac0f6c666a0ecfe2440ab3e9"
+    },
+    {
+      "path": "test/life.test.mjs",
+      "bytes": 3429,
+      "sha256": "e2f168d208b6f78e9f417877fea2d5fd2ccb42d12032f27bb586a276d3015326"
+    },
+    {
+      "path": "test/planning.test.mjs",
+      "bytes": 7534,
+      "sha256": "90b00927cb4c5ebbf6a26fb3401cc440bf5f04535fc591c961f8430f48e845b6"
+    },
+    {
+      "path": "test/policy.test.mjs",
+      "bytes": 1741,
+      "sha256": "711ba21420746c094f9d29072b10eb33fdc70b2aaa1add21e0c60d8069ed7ae3"
+    },
+    {
+      "path": "test/procurement.test.mjs",
+      "bytes": 4112,
+      "sha256": "bf07f373f4aa4ef5658b55f39c8a51473c8a3789bbd23170fdc03c742067c7e3"
+    },
+    {
+      "path": "test/reliability.test.mjs",
+      "bytes": 17919,
+      "sha256": "c30fe21066226a6d45571f14d8958ac4cfe2233b2ba030392827cf4e2f11afcd"
+    },
+    {
+      "path": "test/remote-qq.test.mjs",
+      "bytes": 5734,
+      "sha256": "eb45241eb583aac20e8a2a8879dca27f652c150316568e14d6802bc9da633bb0"
+    },
+    {
+      "path": "test/resources-guidance.test.mjs",
+      "bytes": 6216,
+      "sha256": "dfa3a48318749bd323d1c18fd45ddfdb96949310a97248e302313c71a7185828"
+    },
+    {
+      "path": "test/showme-conflict.test.mjs",
+      "bytes": 1178,
+      "sha256": "d797f6a543c3275cc90858017aea54fc1d163e72f3a178e875137f2cde3fe09a"
+    },
+    {
+      "path": "test/social-memory.test.mjs",
+      "bytes": 6290,
+      "sha256": "13a9da24cd0d5be9a03cb872538f057731636f6a19c37b362cea07ab55aab41a"
+    },
+    {
+      "path": "test/standalone.test.mjs",
+      "bytes": 6625,
+      "sha256": "7f1e33fbeaaefcbb5ca7950ed3a0947110b6891751225a135f637d3dc50cf415"
+    },
+    {
+      "path": "test/timeline.test.mjs",
+      "bytes": 2215,
+      "sha256": "bb438441cf64ca21c7ba4bdba131d093a16473bbba35634c9a86bdeca501ddbb"
+    },
+    {
+      "path": "test/ui-history.test.mjs",
+      "bytes": 14338,
+      "sha256": "d2143da0f9ffe7212b6a595e2c379e72e6d3cffde9b6472d4ac1378550047523"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 736,
+      "sha256": "ffcd419bd2bdf9dd80458e0456cd64627e2ee4024f13a2751de602feeac3d16f"
+    },
+    {
+      "path": "tools/audit.mjs",
+      "bytes": 1983,
+      "sha256": "8021b5386278a17e445e62d5c6baa80a9da659822272fd7e895636665ff71b9b"
+    },
+    {
+      "path": "tools/check-lua.mjs",
+      "bytes": 476,
+      "sha256": "6718ee474233f7b0e482e239a25d6c30b088dbd291ca5b4bcdc891ce80d99d24"
+    },
+    {
+      "path": "tools/check-ui-api.mjs",
+      "bytes": 1781,
+      "sha256": "f922cd12de509f366e05c529a94ede4b1e2b88e96268a535ac280de7572f37c0"
+    },
+    {
+      "path": "tools/import-reference.ps1",
+      "bytes": 1368,
+      "sha256": "8038f57827238f90ac31f3ab8ccb0b23161b5bb7c5b49bef443328830520a4f1"
+    },
+    {
+      "path": "tools/probe-showme-conflict.mjs",
+      "bytes": 3198,
+      "sha256": "d2dc9473fa1e12d2f24d414650cb03c583d1c6e7ef2d4435e1f906ca763abb57"
+    },
+    {
+      "path": "tools/setup.mjs",
+      "bytes": 4151,
+      "sha256": "7a0e8737cc5984fb88024f679602a4d22dfcce58e2b4689dc8a315e2c44b8417"
+    },
+    {
+      "path": "tools/start.mjs",
+      "bytes": 2154,
+      "sha256": "b472af513482c8c511f73341b3ba19cac3fad34f755d7498476383308243b776"
+    },
+    {
+      "path": "tools/stop.mjs",
+      "bytes": 1438,
+      "sha256": "45108b7e44c26b4728bbd2bd4215d01e53a7e4d5714d5cb808e5a92d2853038b"
+    },
+    {
+      "path": "tools/test.mjs",
+      "bytes": 501,
+      "sha256": "d3f931354becc3b88a93a1cdd58f267d30474adf9b64b474d761c34e40d244de"
+    }
+  ]
+}

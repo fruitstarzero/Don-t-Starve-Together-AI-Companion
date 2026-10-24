@@ -1,0 +1,22 @@
+{
+  "name": "dst-ai-companion",
+  "version": "0.8.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node bridge/server.mjs",
+    "setup": "node tools/setup.mjs",
+    "test": "node tools/test.mjs",
+    "test:all": "node --test test/*.test.mjs",
+    "check": "node tools/check-lua.mjs",
+    "audit": "node tools/audit.mjs"
+  },
+  "devDependencies": {
+    "fengari": "^0.1.5",
+    "luaparse": "^0.3.1"
+  }
+}
